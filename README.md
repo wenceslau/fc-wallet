@@ -30,6 +30,8 @@ Validar se todos os container subiram
 * kafka
 * control-center
 
+## OBS CASO OS CONTAINER wallet-core E wallet-report NAO SUBIR, É DEVIDO A DEPENDENCIA COM O KAFKA E MYSQL, BASTA REINICIA-LOS
+
 Abrir o control Center do Kafka http://localhost:9021/clusters
 e criar os topicos
 
