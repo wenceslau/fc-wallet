@@ -1,0 +1,16 @@
+server:
+  port: 3003
+
+spring:
+  datasource:
+    url: 'jdbc:mysql://db-mysql-wallet/wallet?allowPublicKeyRetrieval=true&useSSL=false'
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: r00t
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    show-sql: 'true'
+    generate-ddl: false
+    hibernate:
+      ddl-auto: none
+
